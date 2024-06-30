@@ -2,7 +2,7 @@
 -- LOADSTRINGs
 --=========================================
 
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DreckModzOfc/AUTO-JJs/main/Config/ScreenGui.lua"))()
 wait(0.2))
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DreckModzOfc/AUTO-JJs/main/Config/CodeLock.lua"))()
 
