@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local AUTOJJS = Instance.new("ScreenGui")
 local UI = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -560,7 +565,7 @@ UIGradient_19.Parent = botao_2
 
 -- Scripts:
 
-local function ZQUAY_fake_script() -- AUTOJJS.LocalScript 
+local function UFZUFBC_fake_script() -- AUTOJJS.LocalScript 
 	local script = Instance.new('LocalScript', AUTOJJS)
 
 	script.Parent.OPEN.Active = true
@@ -569,12 +574,15 @@ local function ZQUAY_fake_script() -- AUTOJJS.LocalScript
 	
 	script.Parent.OPEN.botao.MouseButton1Down:Connect(function()
 		script.Parent.UI.Visible = true
+		wait(0.2)
 		script.Parent.OPEN.Visible = false
 	end)
 	
 	script.Parent.UI.botao.MouseButton1Down:Connect(function()
-		script.Parent.UI.Visible = false
+		
 		script.Parent.OPEN.Visible = true
+		wait(0.2)
+		script.Parent.UI.Visible = false
 	end)
 end
-coroutine.wrap(ZQUAY_fake_script)()
+coroutine.wrap(UFZUFBC_fake_script)()
