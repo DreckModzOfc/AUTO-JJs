@@ -3,7 +3,8 @@
 --=========================================
 
 loadstring(game:HttpGet(""))()
-loadstring(game:HttpGet(""))()
+wait(0.2))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DreckModzOfc/AUTO-JJs/main/Config/CodeLock.lua"))()
 
 --=========================================
 -- VARIAVEIS, NAO APAGA !
