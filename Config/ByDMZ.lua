@@ -1,1 +1,1 @@
-print("https://discord.gg/GtWk2B5WVF")
+setclipboard("https://discord.gg/GtWk2B5WVF")
