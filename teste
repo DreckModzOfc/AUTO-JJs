@@ -1,23 +1,22 @@
 --=========================================
-
 -- LOADSTRINGs
-
---=========================================
-loadstring(game:HttpGet(""))()
-loadstring(game:HttpGet(""))()
 --=========================================
 
+loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet(""))()
+
+--=========================================
 -- VARIAVEIS, NAO APAGA !
-
 --=========================================
+
 local CoreGui = game.CoreGui.AUTOJJS
 local DeleyPulo = CoreGui.valor_PULO
 local DeleyEnvioMensagem = CoreGui.valor_MSG
---=========================================
 
+--=========================================
 -- CONFIGURAÇÃO SIMPLES
-
 --=========================================
+
 DeleyPulo.Text = 2 -- Tempo Pulo
 DeleyEnvioMensagem.Text = 0.8 -- Tempo envio, exemplo: UM! DOIS! ...
 
